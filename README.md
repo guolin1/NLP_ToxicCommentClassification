@@ -9,6 +9,6 @@
 - Explored pretrained Word2Vec vectorizer (w/ SVM, Logistic Regression, XGBoost)[[notebook]](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/2_word2vec.ipynb)
 
 ## TO DO:
-- Explore weighted vectorizers (tfidf-GloVe)
+- Explore weighted vectorizers (tfidf-GloVe & tfidf-w2v)
 - Explore BERT, RNNs
     
