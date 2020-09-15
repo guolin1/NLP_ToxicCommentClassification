@@ -16,3 +16,4 @@ Exploring NLP methods on a multi-label classification problem [[Data]](https://w
 
 ## TO DO:
 - Visualize the comparisons of all combinations of vectorizers and classifiers. 
+- Ensembles
