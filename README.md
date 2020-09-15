@@ -13,7 +13,7 @@ Exploring NLP methods on a multi-label classification problem [[Data]](https://w
 - GloVe vectors and Bidirectional GRUs [notebook](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/4_GloVe_GRU.ipynb)
 - Word2Vec vectors and Bidirectional LSTMs [notebook](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/4_word2vec_LSTM.ipynb)
 - Word2Vec vectors and Bidirectional GRUs [notebook](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/4_word2vec_GRU.ipynb)
+- Compare combinations of models and vectorizers [notebook](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/5_compare_models.ipynb)
 
 ## TO DO:
-- Visualize the comparisons of all combinations of vectorizers and classifiers. 
 - Ensembles
