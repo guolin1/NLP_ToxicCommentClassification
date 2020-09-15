@@ -11,6 +11,8 @@ Exploring NLP methods on a multi-label classification problem [[Data]](https://w
 - TF-IDF weighted word2vec vectors (w/ SVM, Logistic Regression, XGBoost)[[notebook]](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/3_tfidf_word2vec.ipynb)
 - GloVe vectors and Bidirectional LSTMs [notebook](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/4_GloVe_LSTM.ipynb)
 - GloVe vectors and Bidirectional GRUs [notebook](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/4_GloVe_GRU.ipynb)
+- Word2Vec vectors and Bidirectional LSTMs [notebook](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/4_word2vec_LSTM.ipynb)
+- Word2Vec vectors and Bidirectional GRUs [notebook](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/4_word2vec_GRU.ipynb)
 
 ## TO DO:
 - Visualize the comparisons of all combinations of vectorizers and classifiers. 
