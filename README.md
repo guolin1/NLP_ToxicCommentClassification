@@ -16,4 +16,5 @@ Exploring NLP methods on a multi-label classification problem [[Data]](https://w
 - Compare combinations of models and vectorizers [notebook](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/5_compare_models.ipynb)
 
 ## TO DO:
-- Ensembles
+- Ensemble Model (GloVe + SVM, XGBoost, BiGRU)
+- Simplify problem (combine all toxic labels) and build classifier
