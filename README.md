@@ -15,6 +15,3 @@ Exploring NLP methods on a multi-label classification problem [[Data]](https://w
 - Word2Vec vectors and Bidirectional GRUs [notebook](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/4_word2vec_GRU.ipynb)
 - Ensemble Model (GloVe + SVM, XGBoost, BiGRU) [notebook](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/6_ensemble.ipynb)
 - Compare combinations of models and vectorizers [notebook](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/5_compare_models.ipynb)
-
-## TO DO:
-- Simplify problem (combine all toxic labels) and build classifier
