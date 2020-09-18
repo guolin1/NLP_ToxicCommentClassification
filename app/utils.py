@@ -4,9 +4,7 @@ import numpy as np
 import json
 
 ## STRING MANIPULATION AND NLP HELP FUNS
-import re, string, copy
-import nltk
-from nltk import WordNetLemmatizer
+import re, copy
 
 ## FILE SAVING & LOADING
 from joblib import load, dump

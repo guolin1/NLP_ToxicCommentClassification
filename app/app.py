@@ -49,4 +49,5 @@ class Predict(Resource):
 api.add_resource(Predict, '/')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,
+            host="0.0.0.0") # important for remote access (e.g., running inside a docker container)

@@ -1,7 +1,10 @@
-# NLP Toxic Comment Classification
-Exploring NLP methods on a multi-label classification problem [[Data]](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
+# Toxic Comment Classification using NLP (deployable as a REST API)
+Deployable ensemble NLP model (BiLSTM + NB-SVM) that classifies toxic comments or statements.
 
-## Progress [[notebooks]](https://github.com/guolin1/NLP_ToxicCommentClassification/tree/master/notebooks):
+## To Use:
+
+## [The App](h)
+## Notebooks [[notebooks]](https://github.com/guolin1/NLP_ToxicCommentClassification/tree/master/notebooks):
 - Brief EDA [[notebook]](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/0_eda.ipynb)
 - Preprocessed Texts
 - Explored Tfidf vectorizer (w/ SVM, NB-SVM, Logistric Regression, XGBoost)[[notebook]](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/2_tfidf.ipynb)
