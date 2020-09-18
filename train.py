@@ -296,9 +296,9 @@ if __name__ == "__main__":
                                     f1))
     # save ensemble model
     print('Saving model')
-    ensemble.nn_m.save('app/model/nn_m')
+    ensemble.nn_m.save('model/nn_m')
     to_save = {'classic_m': (ensemble.classic_m,ensemble.r),
             'tfidf': ensemble.tfidf,
             'keras_tokenizer': ensemble.keras_tokenizer}
     for i in to_save.keys():
-        dump(to_save[i],'app/model/'+i)
+        dump(to_save[i],'model/'+i)
