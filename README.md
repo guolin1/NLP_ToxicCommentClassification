@@ -3,7 +3,7 @@ Deployable ensemble NLP model (BiLSTM + NB-SVM) that classifies comments as "tox
 
 ---
 
-## To pull and run app container:
+## To pull and run app container locally:
 Requirement: Docker
 1. Pull container from Docker Hub:
     >docker pull guolin1/toxicityclassifierapi:latest
@@ -16,12 +16,28 @@ Requirement: Docker
     >response = requests.get(url, params) <br /> 
     >response.json()
 
+---
+## To deploy app on kubernetes (GKE)
+1. Pull repository using Git:
+    > git clone https://github.com/guolin1/ToxicityClassifier_RestAPI.git
+2. Deploy (after CD into ToxicityClassifier_RestAPI/k8s_deploy Directory):
+    > kubectl create -f deployment.yml -f service.yml
+3. Obtain Access Url:
+    > kubectl get services
+    - URL is the EXTERNAL-IP for toxicityclassifier-service
+4. To query from Jupyter Notebook:
+    >import requests <br /> 
+    >url = 'EXTERNAL-IP:80' <br /> 
+    >params ={'query': ['Comment 1', 'Comment 2']} <br /> 
+    >response = requests.get(url, params) <br /> 
+    >response.json()
+
 --- 
 
 ## [The App](https://github.com/guolin1/ToxicityClassifier_RestAPI/tree/master/app)
 ---
 
-## Notebooks [[notebooks]](https://github.com/guolin1/ToxicityClassifier_RestAPI/tree/master/notebooks):
+## Exploration Notebooks [[notebooks]](https://github.com/guolin1/ToxicityClassifier_RestAPI/tree/master/notebooks):
 - Brief EDA [[notebook]](https://github.com/guolin1/ToxicityClassifier_RestAPI/blob/master/notebooks/0_eda.ipynb)
 - Preprocessed Texts
 - Explored Tfidf vectorizer (w/ SVM, NB-SVM, Logistric Regression, XGBoost)[[notebook]](https://github.com/guolin1/ToxicityClassifier_RestAPI/blob/master/notebooks/2_tfidf.ipynb)
