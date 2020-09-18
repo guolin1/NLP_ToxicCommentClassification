@@ -19,7 +19,7 @@ spec:
     spec:
         containers:
           - name: toxicityclassifier-container
-            image: guolin1/toxicityclassifier:latest # DockerHub
+            image: guolin1/toxicityclassifierapi:latest # DockerHub
             ports:
               - containerPort: 5000
   replicas: 1 
