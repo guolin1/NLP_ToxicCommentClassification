@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+
+# metadata
+metadata:
+  name: toxicityclassifier-deployment
+  labels:
+    app: toxicityclassifier
+    type: back-end
+
+# replicaset specs
+spec:
+  template: # pod template, same metadata and spec as pod.yaml
+    metadata:
+      name: toxicityclassifier-pod
+      labels:
+          app: toxicityclassifier
+          type: back-end
+    spec:
+        containers:
+          - name: toxicityclassifier-container
+            image: guolin1/toxicityclassifier:latest # DockerHub
+            ports:
+              - containerPort: 5000
+  replicas: 1 
+  selector:   # selector
+    matchLabels:
+      type: back-end
