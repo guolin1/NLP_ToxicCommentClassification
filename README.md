@@ -1,9 +1,10 @@
 # Toxic Comment Classification using NLP (deployable as a REST API)
 Deployable ensemble NLP model (BiLSTM + NB-SVM) that classifies toxic comments or statements.
 
-## To Use:
+## To use: 
 
-## [The App](h)
+## [The App]()
+
 ## Notebooks [[notebooks]](https://github.com/guolin1/NLP_ToxicCommentClassification/tree/master/notebooks):
 - Brief EDA [[notebook]](https://github.com/guolin1/NLP_ToxicCommentClassification/blob/master/notebooks/0_eda.ipynb)
 - Preprocessed Texts
