@@ -1,5 +1,20 @@
 # Toxic Comment Classification using NLP (deployable as a REST API)
-Deployable ensemble NLP model (BiLSTM + NB-SVM) that classifies comments as "toxic" [1] or "not toxic" [0].
+Deployable NLP model that classifies comments as "toxic" [1] or "not toxic" [0]
+
+---
+
+## Current model:
+Ensemble model (TFIDF,GloVe -> NB-SVM + BiLSTM) <br />
+> Current performance on validation set: <br />
+Accuracy - 0.97 <br />
+Precision - 0.88 <br />
+Recall - 0.78 <br />
+F1 Score - 0.83 <br />
+
+---
+
+## To Do:
+- Explore transformer models (e.g., BERT & GPT)
 
 ---
 
